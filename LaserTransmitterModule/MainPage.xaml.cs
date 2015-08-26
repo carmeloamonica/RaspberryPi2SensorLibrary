@@ -16,9 +16,7 @@ namespace LaserTransmitterModule
     {
         GPIO _gpio = new GPIO();
         DispatcherTimer _timer = new DispatcherTimer();
-        int _hallMagneticSensorModule = 5; // define the tilt switch sensor interfaces
-        int _led = 6;// define LED Interface
-        int _val = 0;
+        int _ledTransmitterModule = 5; // define the tilt switch sensor interfaces
 
         public MainPage()
         {
@@ -27,7 +25,7 @@ namespace LaserTransmitterModule
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-            _gpio.InitGPIO(_hallMagneticSensorModule, _led);
+            _gpio.InitGPIO(_ledTransmitterModule);
             SetSensor();
             _timer.Interval = TimeSpan.FromMilliseconds(.001);
             _timer.Tick += Timer_Tick;
@@ -41,27 +39,22 @@ namespace LaserTransmitterModule
 
         private void SetSensor()
         {
-            _gpio._pin[0].SetDriveMode(GpioPinDriveMode.Input);
-            _gpio._pin[1].SetDriveMode(GpioPinDriveMode.Output);
+            _gpio._pin[0].SetDriveMode(GpioPinDriveMode.Output);
         }
 
 
         private void ReadVal()
         {
-
-            // digital interface will be assigned a value of 3 to read val
-            _val = (int)_gpio._pin[0].Read();
-
             //When the tilt sensor detects a signal when the switch, LED flashes
-            if (_val.Equals((int)GpioPinValue.Low))
+            if (_gpio._pin[0].Read().Equals(GpioPinValue.Low))
             {
-                _gpio._pin[1].Write(GpioPinValue.High);
+                _gpio._pin[0].Write(GpioPinValue.High);
                 tblLed.Text = "On";
             }
 
             else
             {
-                _gpio._pin[1].Write(GpioPinValue.Low);
+                _gpio._pin[0].Write(GpioPinValue.Low);
                 tblLed.Text = "Off";
             }
         }
