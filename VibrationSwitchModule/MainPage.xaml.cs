@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GpioConfiguration;
+using System;
 using Windows.Devices.Gpio;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
@@ -15,7 +16,7 @@ namespace VibrationSwitchModule
     {
         GPIO _gpio = new GPIO();
         DispatcherTimer _timer = new DispatcherTimer();
-        int _tiltswitchsensor = 5; // define the tilt switch sensor interfaces
+        int _vibrationswitchsensor = 5; // define the tilt switch sensor interfaces
         int _led = 6;// define LED Interface
         int _val;// define numeric variables val
 
@@ -26,7 +27,7 @@ namespace VibrationSwitchModule
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-            _gpio.InitGPIO(_tiltswitchsensor, _led);
+            _gpio.InitGPIO(_vibrationswitchsensor, _led);
             SetSensor();
             _timer.Interval = TimeSpan.FromMilliseconds(.001);
             _timer.Tick += Timer_Tick;
@@ -50,7 +51,7 @@ namespace VibrationSwitchModule
             _val = (int)_gpio._pin[0].Read();
 
             //When the tilt sensor detects a signal when the switch, LED flashes
-            if (_val.Equals((int)GpioPinValue.Low)) 
+            if (_val.Equals((int)GpioPinValue.High)) 
             {
                 _gpio._pin[1].Write(GpioPinValue.Low);
             }

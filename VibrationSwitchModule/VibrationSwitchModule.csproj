@@ -99,7 +99,6 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Classes\GPIO.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -112,6 +111,7 @@
     <None Include="VibrationSwitchModule_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="GpioConfiguration.rd.xml" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -135,6 +135,12 @@
     <SDKReference Include="WindowsIoT, Version=10.0.10240.0">
       <Name>Windows IoT Extensions for the UWP</Name>
     </SDKReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GpioConfiguration\GpioConfiguration.csproj">
+      <Project>{7b6a99b9-ff23-49da-9b90-1d362a1fd5f9}</Project>
+      <Name>GpioConfiguration</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfraredEmissionSensorModul
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaserTransmitterModule", "LaserTransmitterModule\LaserTransmitterModule.csproj", "{762120A5-06B9-49E0-9985-994D78377753}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MercuryOpenOpticalModule", "MercuryOpenOpticalModule\MercuryOpenOpticalModule.csproj", "{1F432BFF-4FB7-4231-84B0-7228373311DA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +167,26 @@ Global
 		{762120A5-06B9-49E0-9985-994D78377753}.Release|x86.ActiveCfg = Release|x86
 		{762120A5-06B9-49E0-9985-994D78377753}.Release|x86.Build.0 = Release|x86
 		{762120A5-06B9-49E0-9985-994D78377753}.Release|x86.Deploy.0 = Release|x86
+		{1F432BFF-4FB7-4231-84B0-7228373311DA}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{1F432BFF-4FB7-4231-84B0-7228373311DA}.Debug|ARM.ActiveCfg = Debug|ARM
+		{1F432BFF-4FB7-4231-84B0-7228373311DA}.Debug|ARM.Build.0 = Debug|ARM
+		{1F432BFF-4FB7-4231-84B0-7228373311DA}.Debug|ARM.Deploy.0 = Debug|ARM
+		{1F432BFF-4FB7-4231-84B0-7228373311DA}.Debug|x64.ActiveCfg = Debug|x64
+		{1F432BFF-4FB7-4231-84B0-7228373311DA}.Debug|x64.Build.0 = Debug|x64
+		{1F432BFF-4FB7-4231-84B0-7228373311DA}.Debug|x64.Deploy.0 = Debug|x64
+		{1F432BFF-4FB7-4231-84B0-7228373311DA}.Debug|x86.ActiveCfg = Debug|x86
+		{1F432BFF-4FB7-4231-84B0-7228373311DA}.Debug|x86.Build.0 = Debug|x86
+		{1F432BFF-4FB7-4231-84B0-7228373311DA}.Debug|x86.Deploy.0 = Debug|x86
+		{1F432BFF-4FB7-4231-84B0-7228373311DA}.Release|Any CPU.ActiveCfg = Release|x86
+		{1F432BFF-4FB7-4231-84B0-7228373311DA}.Release|ARM.ActiveCfg = Release|ARM
+		{1F432BFF-4FB7-4231-84B0-7228373311DA}.Release|ARM.Build.0 = Release|ARM
+		{1F432BFF-4FB7-4231-84B0-7228373311DA}.Release|ARM.Deploy.0 = Release|ARM
+		{1F432BFF-4FB7-4231-84B0-7228373311DA}.Release|x64.ActiveCfg = Release|x64
+		{1F432BFF-4FB7-4231-84B0-7228373311DA}.Release|x64.Build.0 = Release|x64
+		{1F432BFF-4FB7-4231-84B0-7228373311DA}.Release|x64.Deploy.0 = Release|x64
+		{1F432BFF-4FB7-4231-84B0-7228373311DA}.Release|x86.ActiveCfg = Release|x86
+		{1F432BFF-4FB7-4231-84B0-7228373311DA}.Release|x86.Build.0 = Release|x86
+		{1F432BFF-4FB7-4231-84B0-7228373311DA}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
