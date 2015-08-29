@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnockSensorModule", "KnockS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomaticFlashingColorfulLEDModule", "AutomaticFlashingColorfulLEDModule\AutomaticFlashingColorfulLEDModule.csproj", "{BF065E0B-6305-4DF5-9AFF-8F77F2FA5FAB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetalTouchSensorModule", "MetalTouchSensorModule\MetalTouchSensorModule.csproj", "{BBE2B51D-7BB0-4BC1-A6C0-3A104867806F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -363,6 +365,26 @@ Global
 		{BF065E0B-6305-4DF5-9AFF-8F77F2FA5FAB}.Release|x86.ActiveCfg = Release|x86
 		{BF065E0B-6305-4DF5-9AFF-8F77F2FA5FAB}.Release|x86.Build.0 = Release|x86
 		{BF065E0B-6305-4DF5-9AFF-8F77F2FA5FAB}.Release|x86.Deploy.0 = Release|x86
+		{BBE2B51D-7BB0-4BC1-A6C0-3A104867806F}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{BBE2B51D-7BB0-4BC1-A6C0-3A104867806F}.Debug|ARM.ActiveCfg = Debug|ARM
+		{BBE2B51D-7BB0-4BC1-A6C0-3A104867806F}.Debug|ARM.Build.0 = Debug|ARM
+		{BBE2B51D-7BB0-4BC1-A6C0-3A104867806F}.Debug|ARM.Deploy.0 = Debug|ARM
+		{BBE2B51D-7BB0-4BC1-A6C0-3A104867806F}.Debug|x64.ActiveCfg = Debug|x64
+		{BBE2B51D-7BB0-4BC1-A6C0-3A104867806F}.Debug|x64.Build.0 = Debug|x64
+		{BBE2B51D-7BB0-4BC1-A6C0-3A104867806F}.Debug|x64.Deploy.0 = Debug|x64
+		{BBE2B51D-7BB0-4BC1-A6C0-3A104867806F}.Debug|x86.ActiveCfg = Debug|x86
+		{BBE2B51D-7BB0-4BC1-A6C0-3A104867806F}.Debug|x86.Build.0 = Debug|x86
+		{BBE2B51D-7BB0-4BC1-A6C0-3A104867806F}.Debug|x86.Deploy.0 = Debug|x86
+		{BBE2B51D-7BB0-4BC1-A6C0-3A104867806F}.Release|Any CPU.ActiveCfg = Release|x86
+		{BBE2B51D-7BB0-4BC1-A6C0-3A104867806F}.Release|ARM.ActiveCfg = Release|ARM
+		{BBE2B51D-7BB0-4BC1-A6C0-3A104867806F}.Release|ARM.Build.0 = Release|ARM
+		{BBE2B51D-7BB0-4BC1-A6C0-3A104867806F}.Release|ARM.Deploy.0 = Release|ARM
+		{BBE2B51D-7BB0-4BC1-A6C0-3A104867806F}.Release|x64.ActiveCfg = Release|x64
+		{BBE2B51D-7BB0-4BC1-A6C0-3A104867806F}.Release|x64.Build.0 = Release|x64
+		{BBE2B51D-7BB0-4BC1-A6C0-3A104867806F}.Release|x64.Deploy.0 = Release|x64
+		{BBE2B51D-7BB0-4BC1-A6C0-3A104867806F}.Release|x86.ActiveCfg = Release|x86
+		{BBE2B51D-7BB0-4BC1-A6C0-3A104867806F}.Release|x86.Build.0 = Release|x86
+		{BBE2B51D-7BB0-4BC1-A6C0-3A104867806F}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
