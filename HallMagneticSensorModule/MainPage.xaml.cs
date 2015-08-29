@@ -58,11 +58,6 @@ namespace HallMagneticSensorModule
             {
                 _gpio._pin[1].Write(GpioPinValue.High);
             }
-
-            else
-            {
-                _gpio._pin[1].Write(GpioPinValue.Low);
-            }
         }
     }
 }
