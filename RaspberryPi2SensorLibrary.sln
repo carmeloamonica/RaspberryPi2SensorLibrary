@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RotaryEncoder", "RotaryEncoder\RotaryEncoder.csproj", "{5D659C91-454C-434C-B9D9-1E4C78DBB429}"
 EndProject
@@ -40,6 +40,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensitiveMicrophoneSensorModule", "SensitiveMicrophoneSensorModule\SensitiveMicrophoneSensorModule.csproj", "{41B55B19-9A64-4859-9B0C-79B1D8DAD14C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicrophoneSoundSensorModule", "MicrophoneSoundSensorModule\MicrophoneSoundSensorModule.csproj", "{60DA2D8D-2CCF-49ED-B7CE-3F56F9910DEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thumb Joystick", "Thumb Joystick\Thumb Joystick.csproj", "{F2E1597C-5B6C-4C78-80A2-26059B8ACA50}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -429,6 +431,26 @@ Global
 		{60DA2D8D-2CCF-49ED-B7CE-3F56F9910DEA}.Release|x86.ActiveCfg = Release|x86
 		{60DA2D8D-2CCF-49ED-B7CE-3F56F9910DEA}.Release|x86.Build.0 = Release|x86
 		{60DA2D8D-2CCF-49ED-B7CE-3F56F9910DEA}.Release|x86.Deploy.0 = Release|x86
+		{F2E1597C-5B6C-4C78-80A2-26059B8ACA50}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{F2E1597C-5B6C-4C78-80A2-26059B8ACA50}.Debug|ARM.ActiveCfg = Debug|ARM
+		{F2E1597C-5B6C-4C78-80A2-26059B8ACA50}.Debug|ARM.Build.0 = Debug|ARM
+		{F2E1597C-5B6C-4C78-80A2-26059B8ACA50}.Debug|ARM.Deploy.0 = Debug|ARM
+		{F2E1597C-5B6C-4C78-80A2-26059B8ACA50}.Debug|x64.ActiveCfg = Debug|x64
+		{F2E1597C-5B6C-4C78-80A2-26059B8ACA50}.Debug|x64.Build.0 = Debug|x64
+		{F2E1597C-5B6C-4C78-80A2-26059B8ACA50}.Debug|x64.Deploy.0 = Debug|x64
+		{F2E1597C-5B6C-4C78-80A2-26059B8ACA50}.Debug|x86.ActiveCfg = Debug|x86
+		{F2E1597C-5B6C-4C78-80A2-26059B8ACA50}.Debug|x86.Build.0 = Debug|x86
+		{F2E1597C-5B6C-4C78-80A2-26059B8ACA50}.Debug|x86.Deploy.0 = Debug|x86
+		{F2E1597C-5B6C-4C78-80A2-26059B8ACA50}.Release|Any CPU.ActiveCfg = Release|x86
+		{F2E1597C-5B6C-4C78-80A2-26059B8ACA50}.Release|ARM.ActiveCfg = Release|ARM
+		{F2E1597C-5B6C-4C78-80A2-26059B8ACA50}.Release|ARM.Build.0 = Release|ARM
+		{F2E1597C-5B6C-4C78-80A2-26059B8ACA50}.Release|ARM.Deploy.0 = Release|ARM
+		{F2E1597C-5B6C-4C78-80A2-26059B8ACA50}.Release|x64.ActiveCfg = Release|x64
+		{F2E1597C-5B6C-4C78-80A2-26059B8ACA50}.Release|x64.Build.0 = Release|x64
+		{F2E1597C-5B6C-4C78-80A2-26059B8ACA50}.Release|x64.Deploy.0 = Release|x64
+		{F2E1597C-5B6C-4C78-80A2-26059B8ACA50}.Release|x86.ActiveCfg = Release|x86
+		{F2E1597C-5B6C-4C78-80A2-26059B8ACA50}.Release|x86.Build.0 = Release|x86
+		{F2E1597C-5B6C-4C78-80A2-26059B8ACA50}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
